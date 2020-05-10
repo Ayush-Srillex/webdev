@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+section {
+    border: solid;
+    background-color: #B5B5B5;
+	margin: 10px;
+    float: left;
+	
+}
+.header h1 {
+    text-align: center;
+    color: #000000;
+}
+
+p{
+	margin: 1%;
+}
+.main h3 {
+	text-align: right;
+	margin-left: 70%;
+	margin-top: -0.05%;
+	margin-right: 0%;
+	background-color:#F5F300
+}
+
+
+
+/* CSS Document */
+
+
+@media (min-width: 922px){
+.main .col1 {
+    width: 30%;
+    
+}
+	.main .col2 {
+    width: 30%;
+    
+}
+	.main .col3 {
+    width: 30%;
+    
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 921px){
+	.main .col1{
+		width: 45%;
+	}
+	.main .col2{
+		width: 45%;
+	}
+	.main .col{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+.main .col1 {
+    width: 90%;
+    
+}
+	.main .col2 {
+    width: 90%;
+    
+}
+	.main .col3 {
+    width: 90%;
+    
+}
+
+}
