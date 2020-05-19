@@ -9,7 +9,6 @@ for (var i=0;i<names.length;i++) {
   if (ch==='j') {
     byeSpeaker.speak(names[i]);
   } else {
-    // console.log("Hello "+names[i]);
     helloSpeaker.speak(names[i]);
     // helloSpeaker.xxxx
   }
